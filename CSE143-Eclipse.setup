@@ -42,7 +42,8 @@
   <setupTask
       xsi:type="setup.p2:P2Task">
     <requirement
-        name="viz.feature.group"/>
+        name="viz.feature.group"
+        versionRange="[0.1.0,1.0.0)"/>
     <repository
         url="http://www.countablethoughts.com/eclipse-viz/site.xml"
         type="Metadata"/>
