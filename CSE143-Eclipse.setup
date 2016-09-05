@@ -41,6 +41,8 @@
       storageURI="scope://Workspace"/>
   <setupTask
       xsi:type="setup.p2:P2Task">
+    <requirement
+        name="viz.feature.group"/>
     <repository
         url="http://www.countablethoughts.com/eclipse-viz/site.xml"
         type="Metadata"/>
